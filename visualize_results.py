@@ -93,7 +93,7 @@ def generate_graphs(save_name: Tuple = None,
             plt.xlabel("Datasets", fontsize=18)
             plt.ylabel("Test Accuracy (%)", fontsize=18)
             plt.yticks(fontsize=16)
-            plt.ylim(0, 100)  # Set the y-axis limit from 0 to 100
+            plt.ylim(0, 100)
             for bar in bars:
                 yval = bar.get_height()
                 plt.text(bar.get_x() + bar.get_width() / 2, yval + 0.5, f"{yval:.2f}%", ha='center', fontsize=14)

@@ -1,0 +1,9 @@
+{
+  "writer_dependent": false,
+  "train_size": 0.6,
+  "batch_size": 8,
+  "num_epochs": 8,
+  "learning_rate": 1e-3,
+  "eval_only": false,
+  "pretrained_weights": true
+}
